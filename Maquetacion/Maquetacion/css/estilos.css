@@ -1,0 +1,78 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Bebas Neue;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nub{
+    background-color: #75CFB8;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logo{
+    height: 60px;
+    margin: -10px;
+    border-radius: 100px;
+}
+
+.nub ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.buscar{
+    position: relative;
+    border: 1px solid silver;
+    border-radius: 100px;
+    width: 840px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.buscar input{
+    color: black;
+}
+
+.nub ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+
+.nub ul li a{
+    color: black;
+    font-size: 32px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+li a.active, li a:hover{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.checktn{
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0% 2%;
+    cursor: pointer;
+}
+
+.puss{
+    width: 10px;
+}
